@@ -1,0 +1,7 @@
+@font-face {
+  font-family: 'Antapani';
+  src: url('./Antapani-ExtraBold.otf') format('opentype');
+  font-weight: 800;
+  font-style: normal;
+  font-display: swap;
+}
