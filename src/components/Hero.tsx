@@ -44,18 +44,13 @@ export default function Hero() {
           </div>
           
           <div className="relative flex-1 w-full max-w-md animate-fade-in">
-            <div 
-              ref={imageRef} 
-              className="relative z-10 rounded-[2.5rem] overflow-hidden shadow-2xl will-change-transform glass-card"
-            >
+            
               <img
-                src="/camelia-mockup.svg"
+                src="/mockup-hero.png"
                 alt="Application Camelia"
-                className="w-full h-auto transform hover:scale-105 transition-transform duration-700"
+                className="w-full h-full object-cover transform rotate-3 hover:scale-105 duration-300"
                 loading="eager"
               />
-              <div className="absolute inset-0 bg-gradient-to-t from-purple-600/20 to-transparent"></div>
-            </div>
 
             <div className="absolute -top-10 -left-10 w-32 h-32 bg-purple-200 rounded-full mix-blend-multiply filter blur-xl opacity-70 animate-float"></div>
             <div className="absolute -bottom-8 -right-8 w-40 h-40 bg-pink-200 rounded-full mix-blend-multiply filter blur-xl opacity-70 animate-float-slow"></div>
